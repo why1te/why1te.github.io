@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Why1te@blog.io</title><link>https://youngtingwang.cn/posts/</link><description>Recent content in Posts on Why1te@blog.io</description><generator>Hugo</generator><language>en-us</language><copyright>© Why1te</copyright><lastBuildDate>Wed, 10 Sep 2025 22:33:30 +0800</lastBuildDate><atom:link href="https://youngtingwang.cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Blog</title><link>https://youngtingwang.cn/posts/2024/05/my-first-blog/</link><pubDate>Thu, 02 May 2024 10:35:08 +0800</pubDate><guid>https://youngtingwang.cn/posts/2024/05/my-first-blog/</guid><description>&lt;h2 id="welcome"&gt;Welcome&lt;/h2&gt;
+&lt;p&gt;a&lt;/p&gt;
+&lt;div class="code-container"&gt;
+ &lt;div class="code-header"&gt;
+ &lt;span class="language-label"&gt;c&lt;/span&gt;
+ &lt;button class="copy-code" onclick="copyCode(this)"&gt;Copy&lt;/button&gt;
+ &lt;/div&gt;
+ &lt;div class="highlight"&gt;
+ &lt;div class="highlight"&gt;&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-c" data-lang="c"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;#include&lt;/span&gt; &lt;span style="color:#ff79c6"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span style="color:#ff79c6"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#8be9fd"&gt;int&lt;/span&gt; &lt;span style="color:#50fa7b"&gt;main&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#50fa7b"&gt;printf&lt;/span&gt;(&lt;span style="color:#f1fa8c"&gt;&amp;#34;Hello why1te!!!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#ff79c6"&gt;return&lt;/span&gt; &lt;span style="color:#bd93f9"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+ function copyCode(button) {
+ 
+ const codeContainer = button.closest('.code-container');
+
+ 
+ const codeBlock = codeContainer.querySelector('.highlight table td:nth-child(2)');
+
+ 
+ const codeText = codeBlock.innerText
+ .trim() 
+ .replace(/^\s*[\r\n]/gm, ''); 
+
+ 
+ navigator.clipboard.writeText(codeText).then(() =&gt; {
+ 
+ button.textContent = 'Copied';
+ setTimeout(() =&gt; {
+ button.textContent = 'Copy';
+ }, 2000); 
+ }).catch(err =&gt; {
+ 
+ console.error('Failed to copy text: ', err);
+ button.textContent = 'Failed to copy';
+ });
+ }
+&lt;/script&gt;&lt;blockquote&gt;
+&lt;p&gt;这是我的第一篇博客，以此作为一个开始，记录有趣的事情&lt;/p&gt;</description></item></channel></rss>
